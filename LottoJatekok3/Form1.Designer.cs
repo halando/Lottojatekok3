@@ -64,6 +64,7 @@
             this.button1.TabIndex = 2;
             this.button1.Text = "Tippek Játékba Küldése";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // checkBox1
             // 
@@ -77,6 +78,7 @@
             // 
             // tableLayoutPanel1
             // 
+            this.tableLayoutPanel1.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.tableLayoutPanel1.ColumnCount = 2;
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));

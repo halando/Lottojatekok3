@@ -59,5 +59,15 @@ namespace LottoJatekok3
                 button1.Enabled = false;
             }
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Szelveny sz = new Szelveny(9, 10, 5);
+            Controls.Add(sz);
+            foreach(Control c in Controls)
+            {
+                MessageBox.Show("" + c);
+            }
+        }
     }
 }
