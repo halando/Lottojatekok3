@@ -1,0 +1,10 @@
+C:\Users\diak\source\repos\LottoJatekok3\LottoJatekok3\bin\Debug\LottoJatekok3.exe.config
+C:\Users\diak\source\repos\LottoJatekok3\LottoJatekok3\bin\Debug\LottoJatekok3.exe
+C:\Users\diak\source\repos\LottoJatekok3\LottoJatekok3\bin\Debug\LottoJatekok3.pdb
+C:\Users\diak\source\repos\LottoJatekok3\LottoJatekok3\obj\Debug\LottoJatekok3.csproj.AssemblyReference.cache
+C:\Users\diak\source\repos\LottoJatekok3\LottoJatekok3\obj\Debug\LottoJatekok3.Form1.resources
+C:\Users\diak\source\repos\LottoJatekok3\LottoJatekok3\obj\Debug\LottoJatekok3.Properties.Resources.resources
+C:\Users\diak\source\repos\LottoJatekok3\LottoJatekok3\obj\Debug\LottoJatekok3.csproj.GenerateResource.cache
+C:\Users\diak\source\repos\LottoJatekok3\LottoJatekok3\obj\Debug\LottoJatekok3.csproj.CoreCompileInputs.cache
+C:\Users\diak\source\repos\LottoJatekok3\LottoJatekok3\obj\Debug\LottoJatekok3.exe
+C:\Users\diak\source\repos\LottoJatekok3\LottoJatekok3\obj\Debug\LottoJatekok3.pdb
