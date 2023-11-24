@@ -13,6 +13,7 @@ namespace LottoJatekok3
 {
     public partial class Form1 : Form
     {
+        Random vszg = new Random();
         public Form1()
         {
             InitializeComponent();
@@ -62,12 +63,69 @@ namespace LottoJatekok3
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Szelveny sz = new Szelveny(9, 10, 5);
-            Controls.Add(sz);
-            foreach(Control c in Controls)
+            Szelveny[] szelvenyek = new Szelveny[3];
+            for (int i = 0; i < szelvenyek.Length; i++)
             {
-                MessageBox.Show("" + c);
+                Szelveny sz = null;
+                switch (i)
+                {
+                    case 0:
+                        sz = new Szelveny(9, 10, 5);
+                        break;
+                    case 1:
+                        sz = new Szelveny(5, 9, 6);
+                        break;
+                    case 2:
+                        sz = new Szelveny(5, 7, 7);
+                        break;
+                }
+                szelvenyek[i] = sz;
+
             }
+            Controls.Add(szelvenyek[vszg.Next(szelvenyek.Length)]);
+                        /*foreach(Control c in Controls)
+                        {
+                            MessageBox.Show("" + c);
+                        }*/
+                
+            
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            SzelvenyTorles();
+            Szelveny sz = new Szelveny(9,10,5);
+            Controls.Add(sz);
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            SzelvenyTorles();
+            Szelveny sz = new Szelveny(5,9,6);
+            Controls.Add(sz);
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            SzelvenyTorles();
+            Szelveny sz = new Szelveny(5,7,7);
+            Controls.Add(sz);
+        }
+        void SzelvenyTorles()
+        {
+            Control torlendo = null;
+            foreach (Control c in Controls)
+            {
+             if(c is Szelveny)
+                {
+                    torlendo = c;
+                }
+            }
+            if (torlendo != null)
+            {
+                Controls.Remove(torlendo);
+            }
+            
         }
     }
 }
